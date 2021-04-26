@@ -1,0 +1,184 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+.header-background{
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 750px;
+  margin-bottom: 50px;
+  padding-bottom: 70px;
+  background-image: url("../img/bg.png");
+  flex-direction: column;
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+  -o-object-fit:fill;
+  background-color: #cccccc;
+}
+
+.sticky-nav{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align:auto;
+  -ms-grid-row-align:auto;
+  align-self: auto;
+  -webkit-box-ordinal-group:1;
+  -webkit-order:0;
+  -ms-flex-order:0;
+  order:0;
+}
+.logo{
+  margin-left: 1rem;
+  height: 3rem;
+  width: 3rem;
+}
+.logo-big{
+  height: 12rem;
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+.cover{
+  height: inherit;
+  width: inherit;
+}
+.cover-items{
+  color: white;
+  text-align: center;
+}
+.Cover-text{
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.live-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.programas-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.live{
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+.title{
+  width: 90%;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  flex-basis: 100%;
+  background: rgb(153,0,0);
+background: linear-gradient(90deg, rgba(153,0,0,1) 0%, rgba(0,0,153,1) 37%, rgba(51,102,153,1) 100%);
+}
+/*
+
+=====================
+SOCIAL LINKS
+=====================
+
+*/
+.social {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 13px;
+  text-align: center;
+  transition: all 0.2s ease-out;
+  border: solid 1px #fff;
+}
+
+.social a i {
+  vertical-align: bottom;
+  line-height: 50px;
+}
+
+.social a:hover {
+  background: transparent;
+}
+
+.social a:hover.facebook {
+  color: #4460ae;
+  border-color: #4460ae;
+}
+
+.social a:hover.youtube {
+  color: #c21f25;
+  border-color: #c21f25;
+}
+
+.social a:hover.twitter {
+  color: #3cf;
+  border-color: #3cf;
+}
+
+.social a:hover.instagram {
+  color: #cd4378;
+  border-color: #cd4378;
+}
+
+.social a:hover.email {
+  color: #4a7f45;
+  border-color: #4a7f45;
+}
+
+.social a:hover.link {
+  color: #871AFF;
+  border-color: #871AFF;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em !important;
+}
+
+.headings-font-family {
+  font-family: inherit !important;
+}
+
+.font-family-base {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.debug-red{
+  background-color: red;
+}
+.debug-blue{
+  background-color: blue;
+}

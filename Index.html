@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RadioTV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Google fonts - Roboto for copy, Montserrat for headings-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Styles.css">
+  </head>
+<!---------------------------------------------------------------------------->
+  <body>
+<!---------------------------------------------------------------------------->
+<!-- Menu -->
+
+<div class="sticky-nav" id="nav">
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="#" class="navbar-brand m-l-4">
+       <img src="img/Logo.png" alt="R+ Logo" class="logo">
+    </a>
+
+    <button
+    type="button"
+    name="button"
+    class="navbar-toggler"
+    data-bs-toggle="collapse"
+    data-bs-target="#toggleMobileMenu"
+    aria-controls="toggleMobileMenu"
+    aria-expanded="false"
+    aria-label="Toggle Navigation"
+    >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+      <ul class="navbar-nav text-end m-4 ms-auto">
+        <li>
+          <a href="#" class="nav-link" rel="noopener noreferrer">Inicio</a>
+        </li>
+        <li>
+          <a href="#Programas" class="nav-link" rel="noopener noreferrer">Programas</a>
+        </li>
+        <li>
+          <a href="#Noticias" class="nav-link" rel="noopener noreferrer">Noticias</a>
+        </li>
+        <li>
+          <a href="#Eventos" class="nav-link" rel="noopener noreferrer">Eventos</a>
+        </li>
+        <li>
+          <a href="#Sobre" class="nav-link" rel="noopener noreferrer">Sobre Nosotros</a>
+        </li>
+        <li>
+          <a href="#Contacto" class="nav-link" rel="noopener noreferrer">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+
+<!---------------------------------------------------------------------------->
+<!-- Cover -->
+<section>
+  <div class="header-background">
+      <div class="row cover">
+        <div class="col-sm-12 cover-items align-items-center">
+          <p><img src="img/logo.png" alt="R+ Logo" class="logo-big"></p>
+          <p>Nos ves, nos escuchás</p>
+          <p>Fútbol y mucho más.</p>
+          <p class="Cover-text">Siguenos en</p>
+          <p class="social">
+          <a href="https://facebook.com/rmas.radiotv" class="external facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/channel/UCSq0pS_DEP72Ef2dorDtjrA" class="external youtube"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/rmasradiotv" class="external twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/rmasradiotv/" title="" class="external instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+<!-- Live -->
+<section>
+  <div class="row debug-blue">
+    <div class="col-sm-8 align-items-center live-container">
+      <h1 class="title">LIVE</h1>
+      <iframe
+        width="80%" height="400vh"
+        class="live"
+        src="https://playerv.zcast.com.br/video/andres6384/1/false/false/WXpOS01rNVROVFpaTWtaNlpFTTFhbUl5TUhWWmJrazkrMw==/16:9/YUhSMGNITTZMeTl5YldGekxuVjUrWg==/nao/"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen>
+        </iframe>
+    </div>
+    <div class="col-sm-4 align-items-center">
+  <!----------------------------------------------------------------------------->
+  <!-- Programas -->
+      <h1 class="title" id="Programas">Programas</h1>
+      <iframe src="Programación.html" width="100%" height="400vh"></iframe>
+    </div>
+  </div>
+</section>
+<!----------------------------------------------------------------------------->
+<!-- Noticias -->
+
+<!----------------------------------------------------------------------------->
+<!-- Footer
+<footer class="container py-5">
+     <div class="row">
+       <div class="col-3 col-md">
+         <img src="img/Logo.png" alt="R+ Logo" class="logo">
+         <small class="d-block mb-3 text-muted">© 2021 R+ RadioTV</small>
+       </div>
+       <div class="col-3 col-md">
+       </div>
+       <div class="col-3 col-md">
+         <h5>Mapa del Sitio</h5>
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Inicio</a></li>
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Programas</a></li>
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Noticias</a></li>
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Eventos</a></li>
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Sobre Nosotros</a></li>
+           <li><a class="text-muted" href="#" rel="noopener noreferrer">Contacto</a></li>
+         </ul>
+       </div>
+       <div class="col-3 col-md">
+         <h5>Contacto</h5>
+         <ul class="list-unstyled text-small">
+           <li><a href="https://facebook.com/rmas.radiotv" class="external facebook text-muted" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;rmas.radiotv</a></li>
+           <li><a href="https://twitter.com/rmasradiotv" class="external twitter text-muted" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i>&nbsp;&nbsp;rmasradiotv</a></li>
+           <li><a href="https://www.instagram.com/rmasradiotv/" title="" class="external instagram text-muted" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i>&nbsp;&nbsp;rmasradiotv</a></li>
+           <li><a href="mailto:rmasradiotv@gmail.com" class="email text-muted"><i class="fa fa-envelope" target="_blank" rel="noopener noreferrer"></i>&nbsp;&nbsp;rmasradiotv@gmail.com</a></li>
+         </ul>
+       </div>
+     </div>
+   </footer>--->
+<!----------------------------------------------------------------------------->
+<!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+<!-- -->
+
+<!---------------------------------------------------------------------------->
+<!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
